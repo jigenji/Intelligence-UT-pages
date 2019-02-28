@@ -194,7 +194,7 @@ Home sections
 
 .home-section {
 	width: 100%;
-	padding: 150px 0px 150px 0px;
+	padding: 200px 0px 200px 0px;
 }
 
 /* --- heading --- */
@@ -250,7 +250,7 @@ Parallax
 ============================= */
 
 #parallax1{
-	background-image: url(../img/parallax/1.jpg);
+	background-image: url(../img/parallax/para2_shadow.jpg);
 }
 #parallax2{
 	background-image: url(../img/parallax/2.jpg);
@@ -326,6 +326,22 @@ Intro
   color: #fff;
 }
 
+#intro h3 {
+  width: 100%;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  margin: 0 auto 30px auto;
+  color: #fff;
+}
+#intro h4 {
+  width: 100%;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  margin: 0 auto 30px auto;
+  color: #fff;
+}
+
+
 @media (max-width: 768px ) {
   #intro h2 {
     font-size: 36px;
@@ -399,11 +415,13 @@ Intro
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #00c1c1;
+	/* border: 2px solid #00c1c1; */
+  border: 2px solid #55BBD5;
 }
 
 #intro .btn-get-started:hover {
-  background: #00c1c1;
+	/* background: #00c1c1; */
+  background: #55BBD5;
   color: #fff;
   text-decoration: none;
 }
@@ -419,7 +437,7 @@ About
 
 #about .about-img img {
   margin-left: -15px;
-  max-width: 100%;
+  max-width: 70%;
 }
 
 @media (max-width: 768px) {
@@ -479,8 +497,8 @@ Services
 }
 
 .service .screenshot{
-	overflow: hidden;
-	overflow: hidden;
+	/* overflow: hidden; */
+	overflow: visible ;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -787,7 +805,8 @@ ul.social-network li a i{
 Footer
 ================================= */
 footer {
-	background: #00c1c1;
+	/* background: #00c1c1; */
+	background:	#55BBD5;
 	color: #fff;
 	padding: 50px 0 30px;
 }
@@ -877,4 +896,26 @@ more media queries
 	header h1{
 		font-size: 70px;
 	}
+}
+
+
+/* ================================
+additional color
+================================= */
+.navbar-default {
+  background: #55BBD5 !important;
+}
+.back-to-top {
+  background: #55BBD5 !important;
+  color: #fff;
+}
+.service .carousel-indicators .active {
+	background: #55BBD5 !important;
+
+}
+.contact-widget i {
+	color: #55BBD5 !important;
+}
+#contact a, a:hover {
+    color: #55BBD5 !important;
 }
