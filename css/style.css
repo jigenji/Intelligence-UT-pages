@@ -919,3 +919,8 @@ additional color
 #contact a, a:hover {
     color: #55BBD5 !important;
 }
+
+
+#carousel-service .row{
+	padding-bottom: 20px;
+}
